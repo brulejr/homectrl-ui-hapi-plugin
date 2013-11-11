@@ -1,7 +1,7 @@
 {
-	"name":"homectrl-ui-plugin",
+	"name":"homectrl-ui-hapi-plugin",
 	"version":"0.0.1",
-	"description":"Management UI Server",
+	"description":"Home Control UI Server",
 	"repository":{
 		"type":"git",
 		"url":"https://github.com/brulejr/homectrl-rest-hapi-plugin.git"
