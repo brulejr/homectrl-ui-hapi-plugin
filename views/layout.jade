@@ -1,0 +1,17 @@
+doctype 5
+html
+  head
+    meta(name="viewport" content="width=device-width, initial-scale=1.0")
+    link(rel='stylesheet', href='/vendor/bootstrap/dist/css/bootstrap.css')
+    link(rel='stylesheet', href='/css/layout.css')
+    link(rel='stylesheet', href='/css/style.css')
+    block head
+  body
+    div.page(ng-controller='PageCtrl')
+      header
+        block header
+      section
+        block body
+      footer.navbar.navbar-fixed-bottom
+        block footer
+    block scripts

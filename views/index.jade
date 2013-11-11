@@ -1,0 +1,26 @@
+extends layout
+
+block head
+  title #{t('title')} <#{env}>
+  link(rel='stylesheet', href='/js/parts/cssmenu/styles.css')
+
+block header
+  div.navbar
+    p.navbar-text #{t("appname")}
+
+block footer
+  span.muted.credit #{t('title')} - v#{version}
+  
+block body
+  div.page.container-liquid
+    div.row
+      div.col-sm-12
+        cssmenu(items='items')
+    div.content.row
+      div.sidebar.col-sm-3
+        p TBD - sidebar
+      div.workspace.col-sm-9
+        p TBD - workspace
+  
+block scripts
+  script(src="/vendor/requirejs/require.js", data-main="js/main.js")

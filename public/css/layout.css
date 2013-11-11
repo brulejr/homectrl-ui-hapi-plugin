@@ -1,0 +1,54 @@
+html, body, div.page {
+  height: 100%;
+  width: 100%;
+}
+
+div.page {
+}
+
+div.page>header {
+  position: absolute;
+  min-height: 32px !important;
+  height: 32px;
+  left: 0;
+  top: 0;
+  width: 100%;
+}
+div.page>header>.navbar {
+  margin-bottom: 0px;
+  height: 30px;
+  min-height: 30px;
+  border-radius: 0px;
+}
+div.page>header>.navbar>p {
+  margin: 3px 10px;
+}
+
+div.page>footer {
+  min-height: 20px !important;
+  height: 20px;
+  text-align: center;
+  font-size: small; 
+}
+
+div.page>section {
+  position: absolute;
+  top: 30px;
+  bottom: 20px;
+  left: 0px;
+  right: 0px;
+  overflow: hidden;
+  display: block;
+}
+div.page>section>.page{
+  position: absolute;
+  top: 0px;
+  bottom: 0px;
+  left: 0px;
+  right: 0px;
+  height: 100%;
+}
+div.page>section>.page>.content,
+div.page>section>.page>.content * {
+  height: 100%;
+}

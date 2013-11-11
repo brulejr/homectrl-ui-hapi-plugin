@@ -1,0 +1,50 @@
+{
+	"name":"homectrl-ui-plugin",
+	"version":"0.0.1",
+	"description":"Management UI Server",
+	"repository":{
+		"type":"git",
+		"url":"https://github.com/brulejr/homectrl-rest-hapi-plugin.git"
+	},
+	"scripts":{
+		"start":"nodemon test-server.js",
+		"blanket":{
+			"pattern":[
+				"lib/logging-server.js"
+			]
+		}		
+	},
+	"author":"Jon Brule",
+	"licenses": [
+		{
+			"type": "MIT",
+			"url": "https://github.com/brulejr/homectrl-rest-hapi-plugin/blob/master/LICENSE"
+		}
+	],  
+	"dependencies":{
+		"config":"0.4.x",
+		"handlebars": "1.0.12",
+		"hoek": "1.1.x",
+		"i18next": "~1.6.x",
+		"jade": "~0.35.x",
+		"lodash":"2.2.x",
+		"pkginfo":"0.3.x"
+	},
+	"devDependencies":{
+		"grunt":"~0.4.1",
+		"grunt-jslint":"~1.0.0",
+		"mocha":"~1.12.1",
+		"chai":"~1.7.2",
+		"sinon":"~1.7.3",
+		"sinon-chai":"~2.4.0",
+		"grunt-mocha-cov":"~0.0.7",
+		"grunt-contrib-clean":"~0.5.0",
+		"hapi": "1.x.x",
+		"process":"~0.5.1",
+		"rest":"~0.9.4",
+		"nodemon": "*"
+	},
+	"peerDependencies": {
+		"hapi": "1.x.x"
+	}
+}

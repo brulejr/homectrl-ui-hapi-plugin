@@ -1,0 +1,20 @@
+{
+  "name": "Home Control UI - Hapi plugin",
+  "version": "0.0.1",
+  "main": "public/index.html",
+  "ignore": [
+    "**/.*",
+    "libs"
+  ],
+  "dependencies": {
+    "angular": "~1.2.0-rc.3",
+    "angular-bootstrap": "~0.6.0",
+    "bootstrap": "~3.0.1",    
+    "requirejs": "latest",
+    "requirejs-domready": "latest",
+    "requirejs-text": "latest"
+  },
+  "devDependencies": {
+    "angular-mocks": "~1.2.0-rc.3"
+  }
+}
